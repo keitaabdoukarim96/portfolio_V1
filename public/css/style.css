@@ -435,7 +435,7 @@ section.active {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
-    height: 45rem;
+    height: 23rem;
     overflow: auto;
 }
 

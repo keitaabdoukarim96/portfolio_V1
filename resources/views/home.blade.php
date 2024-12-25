@@ -8,6 +8,8 @@
     <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
     <!-- boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
     <!-- custom css -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
@@ -23,8 +25,8 @@
         <nav>
             <a href="#" class="active">Accueil</a>
             <a href="#">Mes Services</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
+            <a href="#">Mon cv</a>
+            <a href="#">Mes projets</a>
             <a href="#">Contact</a>
         </nav>
     </header>
@@ -49,11 +51,15 @@
                 <span style="--i:2;" data-text="développeur front-end">développeur front-end</span>
                 <span style="--i:1;" data-text="éditeur vidéo">éditeur vidéo</span>
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem nulla sunt, dolores quo sint nobis autem magnam at, cupiditate id sapiente necessitatibus, reprehenderit animi alias dolore obcaecati fugit expedita.</p>
+            <p>Passionné par la création et l’innovation, avec 3 ans d’expérience, je suis spécialisé dans la conception d’interfaces modernes, dynamiques et interactives. Mon objectif est de créer des expériences utilisateur fluides, intuitives et esthétiques, pour répondre aux besoins actuels du digital.
+            <br>
+            <br>
+            En parallèle, j’ai également plus de 3 ans d’expérience en montage vidéo, ce qui me permet d’allier créativité visuelle et compétences techniques pour produire des contenus impactants. 
+            </p>
             <div class="btn-sci">
                 <a href="#" class="btn">Download CV</a>
                 <div class="sci">
-                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="https://github.com/keitaabdoukarim96" target="_blank"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxl-linkedin'></i></a>
                     <a href="#"><i class='bx bxl-discord-alt'></i></a>
                     <a href="#"><i class='bx bxl-youtube'></i></a>
@@ -64,7 +70,7 @@
         <div class="home-img">
             <div class="img-box">
                 <div class="img-item">
-                    <img src="images/home.png">
+                    <img src="images/photo_profil.png">
                 </div>
             </div>
         </div>
@@ -79,11 +85,20 @@
                     <i class='bx bx-code-alt'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>
                 </div>
-                <h3>Web Development</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
+                <h3>Développement Web</h3>
+                <p>Je conçois des sites web modernes, dynamiques et responsives, en mettant à profit mes compétences pour offrir une navigation fluide et une expérience utilisateur optimale. Spécialisé en développement front-end, je crée des interfaces interactives et adaptées à tous les supports.</p>
             </div>
 
             <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Editeur Vidéo</h3>
+                <p>Mon objectif principal est de fournir aux clients des vidéos qui les laissent sans voix. Mon approche méticuleuse et ma passion pour le montage vidéo me permettent de travailler avec précision et d’apporter une touche professionnelle à chaque projet. Que ce soit pour des vidéos promotionnelles, des tutoriels ou des documentaires, je m’engage à livrer un résultat final qui dépasse les attentes.</p>
+            </div>
+
+           <!-- <div class="services-box">
                 <div class="icon">
                     <i class='bx bxs-paint'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>
@@ -110,14 +125,7 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
             </div>
 
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-slideshow'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>
-                </div>
-                <h3>Video Editing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
-            </div>
+            
 
             <div class="services-box">
                 <div class="icon">
@@ -126,7 +134,7 @@
                 </div>
                 <h3>Photography</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab commodi est dolor enim. Illo.</p>
-            </div>
+            </div>-->
         </div>
     </section>
 
@@ -134,103 +142,132 @@
     <section class="resume">
         <div class="resume-container">
             <div class="resume-box">
-                <h2>Why Hire Me?</h2>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
-                <button class="resume-btn active">Experience</button>
-                <button class="resume-btn">Education</button>
-                <button class="resume-btn">Skills</button>
-                <button class="resume-btn">About Me</button>
+                <!--<h2>Pourquoi m'embaucher ?</h2>-->
+                <!--<p class="desc">Avec 2 ans d’expérience en développement front-end et 3 ans en montage vidéo, je combine une expertise technique pointue et une créativité artistique unique. Mon double profil me permet de concevoir des solutions modernes et dynamiques, tout en produisant des contenus visuels engageants. Polyvalent, rigoureux et curieux, je m’adapte rapidement à de nouveaux projets et apporte des résultats concrets. En m’embauchant, vous bénéficiez d’un professionnel capable de répondre à des besoins variés avec une approche innovante et orientée vers la qualité.</p>-->
+                <button class="resume-btn active">Mes Expériences</button>
+                <button class="resume-btn">Mes Formations</button>
+                <button class="resume-btn">Mes Compétences</button>
+                <button class="resume-btn">À Propos de Moi</button>
             </div>
 
             <div class="resume-box">
                 <div class="resume-detail experience active">
-                    <h2 class="heading">My <span>Experience</span></h2>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
+                    <h2 class="heading">Mes <span>Expériences</span></h2>
+                    <p class="desc">Avec 2 ans d’expérience en développement front-end et 3 ans en montage vidéo, je combine une expertise technique pointue et une créativité artistique unique. Mon double profil me permet de concevoir des solutions modernes et dynamiques, tout en produisant des contenus visuels engageants. Polyvalent, rigoureux et curieux, je m’adapte rapidement à de nouveaux projets et apporte des résultats concrets. En m’embauchant, vous bénéficiez d’un professionnel capable de répondre à des besoins variés avec une approche innovante et orientée vers la qualité.</p>
                     <div class="resume-list">
                         <div class="resume-item">
-                            <p class="year">2023 - Present</p>
-                            <h3>Frontend Developer</h3>
-                            <p class="company">Abc Corp.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2022 - 2023</p>
-                            <h3>Full Stack Developer</h3>
-                            <p class="company">Google</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2021 - 2022</p>
-                            <h3>Backend Developer</h3>
-                            <p class="company">YouTube</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2020 - 2021</p>
-                            <h3>Frontend Developer</h3>
-                            <p class="company">Xyz Inc.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2019 - 2020</p>
-                            <h3>UI/UX Designer</h3>
-                            <p class="company">Abc Inc.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2018 - 2019</p>
-                            <h3>Junior Developer</h3>
-                            <p class="company">Xyz Corp.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
+                            <p class="year">Décembre 2020 - Décembre 2023</p>
+                            <h3>Développeur Web</h3>
+                            <p class="company">Amon Marketing Pratique.</p>
+                            <p><ul>
+                            <li>Chargé de concevoir les sites web du Cabinet AMP</li>
+                                <li>Montage vidéo du Cabinet</li>
+                                <li>Référencement SEO</li>
+                                <li>Administrateur du site web du cabinet</li>
+                                <li>Administrateur de la chaine YouTube</li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
+
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">Septembre 2020 - Décembre 2020</p>
+                            <h3>Stagiaire Développeur Web</h3>
+                            <p class="company">Amon Marketing Pratique.</p>
+                            <p><ul>
+                            <li>Chargé de concevoir les sites web du Cabinet AMP</li>
+                                <li>Montage vidéo du Cabinet</li>
+                                <li>Référencement SEO</li>
+                                <li>Administrateur du site web du cabinet</li>
+                                <li>Administrateur de la chaine YouTube</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">Janvier 2020 - Juillet 2020</p>
+                            <h3>Stagiaire Développeur Web</h3>
+                            <p class="company">Ivoire Geek School.</p>
+                            <p><ul><li>Durant ce stage, j'ai travaillé sur la conception d'un site web d'offres d'emploi avec Laravel. J'étais chargé de concevoir la partie front-end des pages "Nos Métiers", "Connexion" et "Inscription</li></ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">Mai 2019 - Novembre 2019</p>
+                            <h3>Stagiaire Développeur Informatique</h3>
+                            <p class="company">Université Virtuelle de Côte d'Ivoire.</p>
+                            <p><ul>
+                                <li>Encadrer les nouveaux étudiants sur le processus de suivi des cours en lign</li>
+                                <li>Expliquer aux étudiants la méthode d’enseignement au sein de l’UVCI.</li>
+                                <li>Expliquer l’utilisation de la plateforme de cours de l’UVCI.</li>
+                                <li>Donner aux étudiants l'envie et la motivation de suivre les cours et d'effectuer leurs devoirs quotidiennement</li>
+                                <li>Faire le bilan à la fin de chaque semestre</li>
+                            </ul></p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="resume-detail education">
-                    <h2 class="heading">My <span>Education</span></h2>
+                    <h2 class="heading">Mes <span>Formations</span></h2>
                     <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
+                    
                     <div class="resume-list">
                         <div class="resume-item">
-                            <p class="year">2024</p>
-                            <h3>Programming Course</h3>
-                            <p class="company">Online Course</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                            <p class="year">Septembre 2024 - à Aujourd'hui</p>
+                            <h3>Licence 3 Informatique, produits et services multimédia</h3>
+                            <p class="company">Université de Franche-Comté, Montbéliard</p>
                         </div>
+                    </div>
+
+                    <div class="resume-list">
                         <div class="resume-item">
-                            <p class="year">2022 - 2023</p>
-                            <h3>Web Development Bootcamp</h3>
-                            <p class="company">Online Course Platform</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                            <p class="year">2019 - 2020</p>
+                            <h3>Master 1 Big Data</h3>
+                            <p class="company">Université virtuelle de côte d’ivoire, Côte d'Ivoire</p>
+                            <p><ul>
+                            <li>Administration de données et Big Data</li>
+                                <li>Technologie Blockchain</li>
+                                <li>Calcul Scientifique</li>
+                                <li>Probabilité et Statistique</li>
+                                <li>Gestion des Projets Agile</li>
+                                <li>Méthodologie de Résolution de Problèmes</li>
+                            </ul>
+                            </p>
                         </div>
+                    </div>
+
+                    <div class="resume-list">
                         <div class="resume-item">
-                            <p class="year">2020</p>
-                            <h3>Certified Web Development</h3>
-                            <p class="company">Online Course</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                            <p class="year">2016 - 2019</p>
+                            <h3>Licence en Informatique</h3>
+                            <p class="company">Université virtuelle de côte d’ivoire, Côte d'Ivoire</p>
+                            <p><ul>
+                            <li>Algorithme et Conception de Systèmes d’Information</li>
+                                <li>Programmation Mobile</li>
+                                <li>Développement Web II</li>
+                                <li>Bases de données sous MS SQL Server</li>
+                                <li>Gestion des Projets II </li>
+                                <li>Système de Gestion des Bases de donnée Relationnelles </li>
+                            </ul>
+                            </p>
                         </div>
+                    </div>
+
+                    <div class="resume-list">
                         <div class="resume-item">
-                            <p class="year">2017 - 2018</p>
-                            <h3>Doctor of Engineering</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2015 - 2017</p>
-                            <h3>Master of Computer Science</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
-                        </div>
-                        <div class="resume-item">
-                            <p class="year">2012 - 2015</p>
-                            <h3>Bachelor of Data Science</h3>
-                            <p class="company">Codehal University</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                            <p class="year">2015 - 2016</p>
+                            <h3>Baccalauréat série scientifique D</h3>
+                            <p class="company">Collège León Gueffie Soubré</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="resume-detail skills">
-                    <h2 class="heading">My <span>Skills</span></h2>
+                    <h2 class="heading">Mes <span>Compétences</span></h2>
                     <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
                     <div class="resume-list">
                         <div class="resume-item">
@@ -246,10 +283,23 @@
                             <span>JavaScript</span>
                         </div>
                         <div class="resume-item">
-                            <i class='bx bxl-react'></i>
-                            <span>React.js</span>
+                            <i class="fa-brands fa-laravel"></i>
+                            <span>Laravel</span>
                         </div>
                         <div class="resume-item">
+                        <i class="fa-solid fa-database"></i>
+                            <span>SQL </span>
+                        </div>
+                        <div class="resume-item">
+                        <i class="bx bxl-github"></i>
+                            <span>Github </span>
+                        </div>
+                        <div class="resume-item">
+                        <i class="bx bxl-php"></i>
+                            <span>Php </span>
+                        </div>
+                       
+                        <!--<div class="resume-item">
                             <i class='bx bxl-vuejs'></i>
                             <span>Vue.js</span>
                         </div>
@@ -264,49 +314,40 @@
                         <div class="resume-item">
                             <i class='bx bxl-mongodb'></i>
                             <span>MongoDB</span>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
 
                 <div class="resume-detail about">
-                    <h2 class="heading">About <span>Me</span></h2>
+                    <h2 class="heading">À Propos de  <span>Moi</span></h2>
                     <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p>
                     <div class="resume-list">
                         <div class="resume-item">
-                            <p>Name <span>Lucius Meshach</span></p>
+                            <p>Nom <span>Abdou Karim keita</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Gender <span>Male</span></p>
+                            <p>Genre <span>Homme</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Age <span>32 Years Old</span></p>
+                            <p>Age <span>28 ans</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Status <span>Married</span></p>
+                            <p>Status <span>Célibataire</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>City <span>San Francisco</span></p>
+                            <p>Pays <span>France</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Nationality <span>American</span></p>
+                            <p>Nationalité <span>Ivoirienne</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Experience <span>10+ Years</span></p>
+                            <p>Expériences <span>2+ Years</span></p>
                         </div>
                         <div class="resume-item">
-                            <p>Full Time <span>Available</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Freelance <span>Available</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Phone <span>(+12) 345 678 910</span></p>
+                            <p>Phone <span>(+33) 0782273438</span></p>
                         </div>
                         <div class="resume-item">
                             <p>Email <span>lucius@gmail.com</span></p>
-                        </div>
-                        <div class="resume-item">
-                            <p>Languages <span>English, French</span></p>
                         </div>
                     </div>
                 </div>
